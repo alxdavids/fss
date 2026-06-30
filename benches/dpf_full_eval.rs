@@ -50,9 +50,9 @@ fn from_domain_range_size<const IN_BLEN: usize, const OUT_BLEN: usize, const CIP
 }
 
 fn bench(c: &mut Criterion) {
-    from_domain_range_size::<2, 16, 4>(c, 16);
-    from_domain_range_size::<3, 16, 4>(c, 18);
-    from_domain_range_size::<3, 16, 4>(c, 20);
+    from_domain_range_size::<3, 16, 4>(c, 19);
+    // from_domain_range_size::<3, 16, 4>(c, 18);
+    // from_domain_range_size::<3, 16, 4>(c, 20);
 }
 
 criterion_group!(benches, bench);
