@@ -5,6 +5,14 @@
 
 Function secret sharing including distributed comparison & point functions
 
+## ALEX EDITS
+
+Use this to benchmark:
+
+```bash
+cargo +nightly bench
+```
+
 ## Get Started
 
 First add the crate as a dependency:
